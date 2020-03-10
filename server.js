@@ -78,5 +78,7 @@ app.prepare().then(() => {
 
   server.listen(port, () => {
     console.log(`> Ready on http://localhost:${port}`);
+    console.log(`API Key: ${SHOPIFY_API_KEY}`);
+    console.log(`Secret Key: ${SHOPIFY_API_SECRET_KEY}`)
   });
 });

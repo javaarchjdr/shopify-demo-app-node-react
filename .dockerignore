@@ -1,0 +1,8 @@
+.next
+node_modules
+.git
+.env
+run.bat
+build.bat
+npm-debug.log
+.prettierrc

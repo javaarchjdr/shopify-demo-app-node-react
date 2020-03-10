@@ -1,3 +1,4 @@
+
 {
   "name": "shopify-demo-app-node-react",
   "version": "1.0.0",
@@ -7,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "debug": "node --nolazy --inspect-brk=9229 server.js"
   },
   "repository": {
     "type": "git",
@@ -21,12 +23,12 @@
   },
   "homepage": "https://github.com/Shopify/shopify-demo-app-node-react#readme",
   "dependencies": {
-    "@shopify/app-bridge": "^1.17.0",
-    "@shopify/app-bridge-react": "^1.17.0",
+    "@shopify/app-bridge": "^1.19.0",
+    "@shopify/app-bridge-react": "^1.19.0",
     "@shopify/koa-shopify-auth": "^3.1.56",
     "@shopify/koa-shopify-graphql-proxy": "^3.3.0",
     "@shopify/koa-shopify-webhooks": "^2.4.0",
-    "@shopify/polaris": "^4.14.0",
+    "@shopify/polaris": "^4.15.2",
     "@zeit/next-css": "^1.0.1",
     "apollo-boost": "^0.4.7",
     "dotenv": "^8.2.0",
