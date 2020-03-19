@@ -1,0 +1,2 @@
+docker rm app
+docker run -d -p3000:4000 -e PORT=4000 -e SHOPIFY_API_KEY="29e2dbeb06391993065f9291d2fc94ff" -e SHOPIFY_API_SECRET_KEY="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npm" -e HOST=https://1392bf1b.ngrok.io/ --name app javaarchjdr/shopify-app-banner
